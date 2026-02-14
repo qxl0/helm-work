@@ -1,0 +1,43 @@
+# Ignore all labs except lab5
+lab1_*/
+lab2_*/
+lab3_*/
+lab4_*/
+lab6_*/
+lab7_*/
+lab8_*/
+lab9_*/
+lab10_*/
+lab11_*/
+
+# Helm
+dist/
+*.tgz
+charts/*/charts/
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+bin/
+obj/
+build/
