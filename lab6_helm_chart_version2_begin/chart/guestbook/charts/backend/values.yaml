@@ -9,4 +9,4 @@ service:
   type: ClusterIP
   port: 80
 ingress:
-  host: backend.minikube.local
+  host: backend-twinkies.apps-crc.testing
