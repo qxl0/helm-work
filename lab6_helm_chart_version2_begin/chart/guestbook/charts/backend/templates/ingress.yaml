@@ -14,3 +14,4 @@ spec:
             name: {{ .Release.Name }}-{{ .Chart.Name }}
             port: 
               number: 80
+
